@@ -7,3 +7,9 @@ jobs:
     steps:
       - name: copier code depuis Github vers votre serveur Ubuntu
         uses: actions/checkout@v3 
+      - name: Installer nodeJS sur notre serveur 
+        uses: actions/setup-node@v3
+      - name: installation des packages JS 
+        run: npm istall
+      - name: Build l'application JS
+        run: npm run build
