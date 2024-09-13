@@ -1,0 +1,9 @@
+name: build
+on: push
+
+jobs: 
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: copier code depuis Github vers votre serveur Ubuntu
+        uses: actions/chekout@3 
