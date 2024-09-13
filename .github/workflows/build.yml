@@ -6,4 +6,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: copier code depuis Github vers votre serveur Ubuntu
-        uses: actions/chekout@3 
+        uses: actions/checkout@3 
